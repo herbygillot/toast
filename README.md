@@ -483,7 +483,20 @@ If you have [Homebrew](https://brew.sh/), you can install Toast as follows:
 brew install toast
 ```
 
-You can update an existing installation with `brew upgrade toast`.
+### Installation with MacPorts
+
+On macOS, you can also install via [MacPorts](https://www.macports.org) as follows:
+
+```sh
+sudo port install toast
+```
+
+You can update an existing installation with:
+
+```sh
+sudo port selfupdate
+sudo port upgrade toast
+```
 
 ### Installation with Cargo
 
